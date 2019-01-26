@@ -39,7 +39,7 @@ public class NumberConverter {
 			return underTwenty[num / 1000] + (num % 1000 == 0 ? "" : " ") + "thousand " + converter(num % 1000);
 		}
 		if (num < 100000){
-			return tens[num / 10000] + (num % 10000 == 0? " thousand" : " ") + converter(num % 10000);
+			return tens[num / 10000] + (num % 10000 == 0? "" : " ") + converter(num % 10000);
 		}
 
 		return "We dun goof'd";
