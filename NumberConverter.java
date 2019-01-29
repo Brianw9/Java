@@ -1,5 +1,3 @@
-package numConvert;
-
 import java.util.Scanner;
 
 public class NumberConverter {
