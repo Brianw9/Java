@@ -42,7 +42,7 @@ public class NumberConverter {
 			return tens[num / 10000] + (num % 10000 == 0? " thousand" : " ") + converter(num % 10000);
 		}
 
-		return "We dun goof'd";
+		return "Something went wrong";
 		
 	}
 
